@@ -1,0 +1,27 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 8px;
+}
+
+.label {
+  align-self: flex-start;
+}
+
+.field {
+  margin-bottom: 12px;
+}
+
+.btn {
+  margin-top: 20px;
+}
+
+.errorMessage {
+  color: orangered;
+  align-self: flex-start;
+  font-size: 12px;
+}
