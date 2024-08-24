@@ -15,9 +15,13 @@
 .containerData div {
   display: flex;
   align-items: center;
+  align-self: start;
   gap: 4px;
 }
-/* 
-.itemEl {
-  text-align: left;
-} */
+
+.button {
+  width: fit-content;
+  height: fit-content;
+  padding: 8px;
+  align-self: center;
+}

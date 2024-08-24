@@ -12,12 +12,13 @@
   align-self: flex-start;
 }
 
-.field {
-  margin-bottom: 12px;
-}
-
 .btn {
+  width: fit-content;
+  display: block;
+  margin: 0 auto;
+  padding: 8px;
   margin-top: 20px;
+  font-size: 16px;
 }
 
 .errorMessage {

@@ -8,11 +8,11 @@ export default function Contact({ item, onDelete }) {
       <div className={css.containerData}>
         <div>
           <AiOutlineUser className={css.icon} />
-          <p className={css.itemEl}>{item.name}</p>
+          <span className={css.itemEl}>{item.name}</span>
         </div>
         <div>
           <FiPhone />
-          <p className={css.itemEl}>{item.number}</p>
+          <span className={css.itemEl}>{item.number}</span>
         </div>
       </div>
       <button className={css.button} onClick={() => onDelete(item.id)}>
